@@ -1,0 +1,319 @@
+body {
+  background: rgba(30, 30, 30, 1);
+}
+.quicksand-medium-lime-32 {
+  font-family: Quicksand;
+  font-size: 2rem;
+  font-weight: 400;
+  color: rgba(214, 253, 42, 1);
+  transition: all .3s ease-out;
+
+}
+.quicksand-medium-lime-32:hover {
+    font-family: Quicksand;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #76FF67ff;
+    
+  }
+
+.screen {
+  width: 100vw;
+  height: 100vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.indexpage {
+  background-color: rgba(30, 30, 30, 1);
+  display: flex;
+  border: 1px none;
+  height: 100vh;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100vw;
+}
+.navigation {
+  align-items: flex-start;
+  background-color: transparent;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 98px;
+  height: 100vh;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 250px;
+  z-index: 20;
+}
+.logo-frame {
+  align-items: flex-start;
+  background-color: transparent;
+  border: 1px none;
+  display: block;
+  height: 100px;
+  padding: 50px 40px;
+  position: relative;
+  width: 200px;
+}
+.gamma-2dot2 {
+  background-color: transparent;
+  letter-spacing: 23.04px;
+  line-height: normal;
+  margin-bottom: -47.15px;
+  margin-right: -78.09px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  transform: rotate(0deg);
+  width: fit-content;
+}
+@media (min-height: 750px) {
+  .nav-menu {
+    align-items: flex-start;
+    background-color: transparent;
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    gap: 14vh;
+    padding: 130px 40px 0px;
+    position: relative;
+    width: 150px;
+  }
+}
+@media (max-height: 750px) {
+  .nav-menu {
+    align-items: flex-start;
+    background-color: transparent;
+    border: 1px none;
+    display: flex;
+    flex-direction: row;
+    height: 75vh;
+    gap: 15vh;
+    padding: 130px 40px 0px;
+    position: relative;
+    width: 150px;
+  }
+}
+@media (min-height: 750px) {
+  .rotate90 {
+    transform: rotate(-90deg);
+  }
+}
+
+.work {
+  background-color: transparent;
+  letter-spacing: 2.88px;
+  line-height: normal;
+  margin-left: -21.5px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  width: fit-content;
+}
+.digital {
+  background-color: transparent;
+  letter-spacing: 2.88px;
+  line-height: normal;
+  margin-left: -35.5px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  width: fit-content;
+}
+.physical {
+  background-color: transparent;
+  letter-spacing: 2.88px;
+  line-height: normal;
+  margin-left: -51.5px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  width: fit-content;
+}
+.about {
+  background-color: transparent;
+  letter-spacing: 2.88px;
+  line-height: normal;
+  margin-left: -30.5px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  width: fit-content;
+}
+.smart-layer-pointers {
+  pointer-events: auto;
+  visibility: visible;
+}
+
+.gammaOrangeLogo {
+  background-color: transparent;
+  display: block;
+  gap: 10px;
+  z-index: 20;
+  width: auto;
+  margin: auto;
+}
+.rectangle {
+  background-color: transparent;
+  height: 90vh;
+  width: 90vw;
+  margin: auto;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+
+}
+.frame1 {
+  background-color: transparent;
+  height: 100vh;
+  display: grid;
+  justify-items: center;
+grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding: 0px 0px 0px;
+
+}/*
+.rectangle1 {
+    background-color: transparent;
+    height: 610px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 347px;
+}
+.rectangle2 {
+    background-color: transparent;
+    height: 391px;
+    left: -299px;
+    position: absolute;
+    top: 213px;
+    transform: rotate(54deg);
+    width: 751px;
+}
+.rectangle3 {
+    background-color: transparent;
+    height: 500px;
+    left: -189px;
+    position: absolute;
+    top: 176px;
+    transform: rotate(-91.66deg);
+    width: 648px;
+    z-index: 1;
+
+}
+.rectangle3 {
+    background-color: transparent;
+    height: 816px;
+    min-width: 1192.56px;
+    position: relative;
+}*/
+.tube1 {
+    background-color: transparent;
+    height: 50vh;
+    left: 80vw;
+    overflow: visible;
+    position: absolute;
+    top: 260px;
+    width: 24vw;
+    z-index: 10;
+    transition: all .3s ease-out;
+
+}
+.tube1:hover {
+    background-color: transparent;
+    height: 50vh;
+    left: 80vw;
+    overflow: visible;
+    position: absolute;
+    top: 260px;
+    width: 24vw;
+    z-index: 10;
+    transform: scale(105%);
+    transform: rotate(-8deg);
+}
+.tube2 {
+    background-color: transparent;
+    height: 50vh;
+    left: 30vw;
+    overflow: visible;
+    position: absolute;
+    top: -30vh;
+    transform: rotate(-54deg);
+    width: 25vw;
+    z-index: 10;
+    transition: all .5s ease-out;
+
+}
+.tube2:hover {
+    background-color: transparent;
+    height: 50vh;
+    left: 30vw;
+    overflow: visible;
+    position: absolute;
+    top: -30vh;
+    transform: rotate(-54deg);
+    width: 25vw;
+    z-index: 10;
+    transform: scale(108%);
+    transform: rotate(5deg);
+}
+.tube3 {
+    background-color: transparent;
+    height: 50vh;
+    left: 10vw;
+    overflow: visible;
+    position: absolute;
+    top: 80vh;
+    transform: rotate(-30deg);
+    width: 25vw;
+    z-index: 10;
+    transition: all .4s ease-out;
+
+}
+.tube3:hover {
+    background-color: transparent;
+    height: 50vh;
+    left: 10vw;
+    overflow: visible;
+    position: absolute;
+    top: 80vh;
+    transform: rotate(-30deg);
+    width: 25vw;
+    z-index: 10;
+    transform: scale(95%);
+    transform: rotate(8deg);
+}
+/*
+.layer1 {
+    background-color: transparent;
+    height: 610px;
+    left: 0px;
+    position: relative;
+    top: 0px;
+    width: 347px;
+}
+.layer2 {
+    background-color: transparent;
+    height: 636px;
+    left: 0px;
+    position: relative;
+    top: 0px;
+    width: 402px;
+}
+.layer3 {
+    background-color: transparent;
+    height: 636px;
+    left: 0px;
+    position: relative;
+    top: 0px;
+    width: 402px;
+    z-index: 10;
+
+}
+*/
